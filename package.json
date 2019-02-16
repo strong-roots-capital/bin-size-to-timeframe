@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/bin-size-to-timeframe",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Convert a BitMEX bin-size to a Trading View timeframe",
   "main": "dist/bin-size-to-timeframe.js",
   "types": "dist/bin-size-to-timeframe.d.ts",
