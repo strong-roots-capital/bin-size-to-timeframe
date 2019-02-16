@@ -5,9 +5,16 @@
 
 
 /**
- * TODO: document
+ * Convert BiMEX bin size to Trading View timeframe.
+ *
+ * @param binSize - Length of bin
+ * @returns Length of bin size as Trading View timeframe
  */
 export default function binSizeToTimeframe(binSize: '1m' | '5m' | '1h' | '1d'): string {
-    // TODO: implement
-    return ''
+    return {
+        '1m': '1',
+        '5m': '5',
+        '1h': '1H',
+        '1d': '1D'
+    } [binSize]
 }
