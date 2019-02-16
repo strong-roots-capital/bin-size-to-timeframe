@@ -12,13 +12,20 @@ npm install @strong-roots-capital/bin-size-to-timeframe
 
 ``` typescript
 import binSizeToTimeframe from '@strong-roots-capital/bin-size-to-timeframe'
-// TODO: describe usage
+
+binSizeToTimeframe('1m')
+//=> '1'
+
+binSizeToTimeframe('5m')
+//=> '5'
+
+binSizeToTimeframe('1h')
+//=> '1H'
+
+binSizeToTimeframe('1d')
+//=> '1D'
 ```
 
 ## Related
 
-TODO
-
-## Acknowledgments
-
-TODO
+- [to-bitmex-timeframe](TODO)
