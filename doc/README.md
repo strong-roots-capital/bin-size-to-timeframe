@@ -51,7 +51,7 @@ Related
 
 ▸ **binSizeToTimeframe**(binSize: *"1m" \| "5m" \| "1h" \| "1d"*): `string`
 
-*Defined in [bin-size-to-timeframe.ts:13](https://github.com/strong-roots-capital/bin-size-to-timeframe/blob/f005e24/src/bin-size-to-timeframe.ts#L13)*
+*Defined in [bin-size-to-timeframe.ts:13](https://github.com/strong-roots-capital/bin-size-to-timeframe/blob/4131b35/src/bin-size-to-timeframe.ts#L13)*
 
 Convert BiMEX bin size to Trading View timeframe.
 
