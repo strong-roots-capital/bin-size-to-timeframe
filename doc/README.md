@@ -16,18 +16,24 @@ Use
 
 ```typescript
 import binSizeToTimeframe from '@strong-roots-capital/bin-size-to-timeframe'
-// TODO: describe usage
+
+binSizeToTimeframe('1m')
+//=> '1'
+
+binSizeToTimeframe('5m')
+//=> '5'
+
+binSizeToTimeframe('1h')
+//=> '1H'
+
+binSizeToTimeframe('1d')
+//=> '1D'
 ```
 
 Related
 -------
 
-TODO
-
-Acknowledgments
----------------
-
-TODO
+*   [to-bitmex-timeframe](TODO)
 
 ## Index
 
@@ -45,17 +51,18 @@ TODO
 
 ▸ **binSizeToTimeframe**(binSize: *"1m" \| "5m" \| "1h" \| "1d"*): `string`
 
-*Defined in [bin-size-to-timeframe.ts:10](https://github.com/strong-roots-capital/bin-size-to-timeframe/blob/e9cf599/src/bin-size-to-timeframe.ts#L10)*
+*Defined in [bin-size-to-timeframe.ts:13](https://github.com/strong-roots-capital/bin-size-to-timeframe/blob/f005e24/src/bin-size-to-timeframe.ts#L13)*
 
-TODO: document
+Convert BiMEX bin size to Trading View timeframe.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| binSize | "1m" \| "5m" \| "1h" \| "1d" |
+| Name | Type | Description |
+| ------ | ------ | ------ |
+| binSize | "1m" \| "5m" \| "1h" \| "1d" |  Length of bin |
 
 **Returns:** `string`
+Length of bin size as Trading View timeframe
 
 ___
 
