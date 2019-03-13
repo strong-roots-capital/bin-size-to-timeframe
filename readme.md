@@ -28,4 +28,4 @@ binSizeToTimeframe('1d')
 
 ## Related
 
-- [to-bitmex-timeframe](TODO)
+- [to-bitmex-timeframe](https://github.com/strong-roots-capital/to-bitmex-timeframe)
