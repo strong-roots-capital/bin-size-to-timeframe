@@ -85,5 +85,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "ow": "^0.12.0"
   }
 }
